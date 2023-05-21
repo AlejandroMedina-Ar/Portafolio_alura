@@ -1,6 +1,6 @@
 /* import { libAOS } from '/assets/js/lib/AnimateInit'; */
-import { validarInputs } from "/assets/js/validaciones.js";
-import { mensajeForm } from "/assets/js/formulario.js";
+import { validarInputs } from "./validaciones.js";
+import { mensajeForm } from "./formulario.js";
 
 document.addEventListener('DOMContentLoaded', () => {
 

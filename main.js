@@ -4,10 +4,6 @@ import { mensajeForm } from "./formulario.js";
 
 document.addEventListener('DOMContentLoaded', () => {
   
-  /* AOS.init({
-    duration: 1100,
-  }); */
-  
     libAOS();
     goToTop();
     mensajeForm(); 

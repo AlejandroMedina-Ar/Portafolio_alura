@@ -1,0 +1,87 @@
+
+.persona {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}   
+   
+.persona__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+            
+.persona__social-mensaje {
+    display: flex;
+    flex-direction: column;
+    width: 55rem;
+}
+    
+.persona__saludo {
+    color: #E0E1DD;
+    font-family: 'Fira Code', monospace;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    text-align: center;    
+}
+
+.persona__acercaDeBreve {
+    color: #E0E1DD;
+    font-family: 'Fira Code', monospace;
+    font-size: 1.1rem;
+    font-weight: 400;  
+}
+
+.persona__btn {
+    width: 180px;
+    height: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3rem;
+    padding: 12px 24px;
+    border: 0;
+    color: #E0E1DD;
+    background: #415A77;
+    border: 2px solid #5DD9C1 ;
+    line-height: 1.15;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+        
+.persona__btns {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.persona__descargaCV-btn {
+    margin-right: 2rem;
+}
+
+.persona__btn:hover {
+    transition: all .1s ease;
+    border: 2px solid #ff2d75 ;
+    cursor: pointer;
+   
+}
+
+.persona__btn:active {
+    background: #ff2d75;
+    border: 2px solid #ff2d75 ;
+    color:  #0D1B2A;
+    
+}
+
+
+
+.persona__img{
+    margin-right: 17rem;
+    border-radius: 50%;
+    border: 5px solid #56445D ;
+    width: 330px;
+    height: 330px;
+}

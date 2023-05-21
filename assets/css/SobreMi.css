@@ -1,0 +1,38 @@
+
+.sobreMi {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 8rem;
+}
+
+.sobreMi {
+    background-color: #373F47 ; 
+}
+      
+.sobreMi__info {
+    margin-left: 6rem;
+}
+
+.sobreMi_title {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 5rem;
+}
+    
+.sobreMi__text {
+    font-family: 'Fira Code', monospace;
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif; */
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+    text-justify: inter-ideograph;
+    font-weight: 400;
+    padding-bottom: 6rem;
+}
+    
+.sobreMi__animation {
+    margin-top: 8rem;
+}

@@ -1,0 +1,109 @@
+
+.contacto__fromulario {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.6rem;
+    margin-top: 4rem;
+  
+  }
+
+.campo__Incol {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+    column-gap: 3rem;
+}
+    
+
+@media screen and (min-width: 768px) {
+    .campo__Incol {
+      flex-direction: row;
+    }
+}
+ 
+.contacto__campo-datos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__campo-form {
+    border-radius: 1.5rem;
+    background-color: #E0E1DD;
+    padding: 10px 15px;
+    border: 2px solid #415A77;
+    outline: none;
+    height: 50px;
+    font-size: 1.4rem;
+    font-family: 'Titillium Web', sans-serif;
+    color: #0D1B2A; 
+}
+  
+.contacto__campo-form::placeholder {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.4rem;
+    color: #415A77;
+}
+  
+.contacto__campo-txtarea {
+    height: auto;
+    resize: none;
+}
+  
+.campo__error {
+    display: none;
+    margin-left: 15px;
+    margin-top: 7px;
+    color: red;
+}
+   
+.datos__erroneos {
+  margin-bottom: 0.5rem;
+}
+
+.datos__erroneos .contacto__campo-form {
+  border: 1px solid red;
+  border-radius: 1.5rem;
+  color: red;
+}
+
+.datos__erroneos .contacto__campo-form::placeholder {
+  color: red;
+}
+
+.datos__erroneos .campo__error {
+  display: block;
+}
+
+.contacto__form-boton {
+    margin: 2rem 0;
+    background: #415A77;
+    color: #E0E1DD;
+    font-size: 1.3em;
+    width: 300px;
+}
+    
+.boton {
+    border: none;
+    padding: 1.2rem 1.2rem;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: center;
+    border: 2px solid #5DD9C1 ;
+    cursor: pointer;
+}
+  
+.boton:hover {
+    transition: all .1s ease;
+    border: 2px solid #ff2d75 ;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.boton:active {
+    background: #ff2d75;
+    border: 2px solid #ff2d75 ;
+    color:  #0D1B2A;
+    cursor: pointer;
+}

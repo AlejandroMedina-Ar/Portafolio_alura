@@ -1,0 +1,42 @@
+
+.navBar__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    background-color: #5DD9C1
+
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.menu__item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+     
+
+.menu_link, a {
+   color: #0D1B2A;
+   font-weight: 600;
+   font-family: 'Titillium Web', sans-serif;
+   font-size: 1.1rem;
+   text-decoration: none;
+}
+
+
+.menu_link, a:hover {
+    color: red  ;
+    font-weight: 800;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: underline;
+ }

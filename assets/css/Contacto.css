@@ -1,0 +1,61 @@
+
+.contacto {
+    background-color: #424548;
+    
+}
+
+.contacto__titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+    font-weight: 800;
+}
+
+.contacto__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+       
+.contacto__mail-conteiner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+   
+.contacto__mailme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2rem; */
+}
+
+.mailme__texto {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.mailme__link {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Fira Code', monospace;
+    color: #E0E1DD;
+}
+
+.mailme__link:hover {
+   font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Fira Code', monospace;
+    color: #778DA9;
+}
+  
+.mailme__img {
+    padding-top: 2rem;
+    width: 200px;
+    height: 200px;
+}

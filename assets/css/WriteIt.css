@@ -1,0 +1,28 @@
+
+.writeIt__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+      
+}
+
+.writeIt__prompt {
+    color: lime;
+   /*  color: #E0E1DD; */
+    font-family: 'Fira Code', monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.writeIt__text {
+    color: #ffae00;
+    /* color: #E0E1DD; */
+    font-family: 'Fira Code', monospace;
+    font-size: 1.9rem;
+    font-weight: bold;
+}

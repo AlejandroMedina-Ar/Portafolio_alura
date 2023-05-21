@@ -1,0 +1,68 @@
+
+.educacion {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+  
+.educacion__conteiner {
+    width: 70%;
+    display: grid;
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr ));
+    margin: 0 auto;
+}
+
+.educacion__title {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 6rem;   
+}
+
+.educacion__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 360px;
+    height: 360px;
+    background-color: #30373d;
+    border: 1px solid #415A77 ; 
+    border-radius: 2rem;
+    box-shadow: 0 10px 16px -6px rgba(2, 255, 230, 0.25), 0 25px 10px -24px 
+}
+
+.educacion__card-text {
+    text-align: center;
+    color:#5DD9C1;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    line-height: 2.1rem;
+}
+
+.educacion__link {
+    font-family: 'Fira Code', monospace;
+    color:#5DD9C1;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.educacion__link:hover {
+    font-family: 'Fira Code', monospace;
+    color:#dc2af8;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.iac__img {
+    width: 300px;
+    height: 200px;
+}
+
+.Oracle__One, .utn__java, .ap__seprogramar {
+    width: 330px;
+    height: 180px;
+}

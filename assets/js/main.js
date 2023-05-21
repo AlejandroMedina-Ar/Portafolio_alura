@@ -1,17 +1,20 @@
-import { libAOS } from '/assets/js/lib/aos.js';
+/* import { libAOS } from '/assets/js/lib/AnimateInit'; */
 import { validarInputs } from "/assets/js/validaciones.js";
 import { mensajeForm } from "/assets/js/formulario.js";
 
+document.addEventListener('DOMContentLoaded', () => {
 
+    /* libAOS(); */
 
+    AOS.init({
+      duration: 1100,
+    });
 
-
-document.addEventListener('DOMContentLoaded', ()=>{
-    libAOS();
+    goToTop();
     mensajeForm(); 
     validarInputs();
 
-})
+});
 
 const showOnPx = 1000;
 const backToTopButton = document.querySelector(".back-to-top")
@@ -21,18 +24,22 @@ const scrollContainer = () => {
 };
 
 document.addEventListener("scroll", () => {
+
   if (scrollContainer().scrollTop > showOnPx) {
     backToTopButton.classList.remove("hidden")
   } else {
     backToTopButton.classList.add("hidden")
   }
+
 })
 
 const goToTop = () => {
+
     document.body.scrollIntoView({
       behavior: "smooth",
     });
-  };
+
+};
 
 
 

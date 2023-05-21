@@ -1,15 +1,14 @@
-/* import { libAOS } from '/assets/js/lib/AnimateInit'; */
+import { libAOS } from './AnimateInit.js'; 
 import { validarInputs } from "./validaciones.js";
 import { mensajeForm } from "./formulario.js";
 
 document.addEventListener('DOMContentLoaded', () => {
-
-    /* libAOS(); */
-
-    AOS.init({
-      duration: 1100,
-    });
-
+  
+  /* AOS.init({
+    duration: 1100,
+  }); */
+  
+    libAOS();
     goToTop();
     mensajeForm(); 
     validarInputs();
